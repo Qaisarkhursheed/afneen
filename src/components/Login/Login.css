@@ -1,0 +1,84 @@
+.login-box {
+  background: #FFFFFF;
+  border: 1px solid #c9c7c7;
+  padding: 15px 20px;
+  margin-top: 25px;
+  margin-bottom: 20px;
+  z-index: 1;
+}
+.login-box .ant-form-item {
+  margin-bottom: 10px;
+}
+
+.ant-form-item-control-input-content .ant-input {
+  color: #1e1e1e !important;
+  padding: 8px 10px !important;
+  border: 1px solid #c9c7c7;
+}
+.forget-login-button .ant-form-item-control-input-content {
+  display: flex;
+}
+.forget-link {
+  width: 50%;
+  color: #f75d34 !important;
+  font-size: 14px !important;
+}
+.ant-form-item-control-input-content .login-button {
+  width: 50%;
+  padding: 8px 25px;
+  background: #00b279;
+  border: 1px solid #00b279;
+  color: #fff;
+}
+.ant-form-item-control-input-content .login-button:hover,
+.login-button:active,
+.login-button:focus {
+  background: #00b279 !important;
+  border: 1px solid #00b279 !important;
+}
+
+.forget-box {
+  background: #FFFFFF;
+  border: 1px solid #c9c7c7;
+  padding: 15px 20px;
+  margin-top: 25px;
+  margin-bottom: 20px;
+  z-index: 1;
+}
+.hide-forget-box {
+  visibility: hidden;
+  transition: 0.2s ease-out;
+}
+.remove-forget-box {
+  display: none;
+}
+.form-lable {
+  margin-bottom: 20px;
+}
+.form-lable b {
+  border-bottom: 1px solid #ddd;
+  width: 100%;
+  display: block;
+}
+.form-lable svg {
+  font-size: 30px;
+  color: #474d5d
+}
+.form-lable-heading {
+  margin-left: 8px;
+  font-weight: bold;
+  color: #333;
+  font-size: 18px;
+  font-weight: bold;
+}
+@media only screen and (max-width: 992px) {
+  .forget-login-button .ant-form-item-control-input-content {
+    display: block;
+  }
+  .forget-link {
+    width: 100%;
+  }
+  .forget-login-button .login-button {
+    width: 100%;
+  }
+}

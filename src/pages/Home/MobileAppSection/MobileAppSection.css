@@ -1,0 +1,46 @@
+.mobile-section-container {
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+  max-width: 800px;
+}
+.mobile-and-app-info {
+  display: flex;
+}
+.mobile-image {
+  width: 41.66666667%;
+}
+.mobile-image img {
+  max-width: 100%;
+  height: auto;
+}
+.app-info {
+  width: 58.33333333%;
+}
+.app-info h2 {
+  margin-top: 22%;
+  font-size: 30px;
+  font-family: inherit;
+  font-weight: 500;
+  line-height: 1.1;
+  color: inherit;
+}
+.app-info .green-text {
+  margin: auto auto 25px;
+  color: #00b279;
+  font-size: 24px;
+}
+
+@media only screen and (max-width: 750px) {
+  .mobile-image {
+    display: none;
+  }
+  .app-info {
+    width: 100%;
+    text-align: center;
+  }
+  .app-info h2 {
+    margin-top: 0%;
+  }
+}

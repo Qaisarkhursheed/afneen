@@ -1,0 +1,30 @@
+.banner-section-login {
+  padding-top: 100px;
+}
+.error-section {
+  padding-top: 20px;
+  padding-bottom: 30px;
+  background: #fff;
+}
+.error-message-container {
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+  width: 87%;
+  text-align: center;
+}
+.class-404 {
+  font-size: 60px;
+  color: red;
+  margin-bottom: 10px;
+}
+.not-found {
+  margin-top: 0;
+  font-size: 30px;
+}
+
+@media only screen and (max-width: 1024px) {
+}
+@media only screen and (max-width: 992px) {
+}

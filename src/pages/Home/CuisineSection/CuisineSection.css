@@ -1,0 +1,94 @@
+.cuisine-container {
+  display: flex;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+  width: 87%;
+}
+.cuisine-logo {
+  width: 25%;
+}
+.cuisine-logo img {
+  display: block;
+  margin: 50px auto auto;
+}
+.cuisine-list {
+  width: 75%;
+}
+.cuisine-item {
+  width: 33%;
+  float: left
+}
+.cuisine-list h2 {
+  color: #0d1115;
+  font-family: "Montserrat",sans-serif;
+  font-size: 28px;
+  font-weight: normal;
+  line-height: 35px;
+  margin-bottom: 10px;
+  text-align: center;
+}
+.cuisine-sub-heading {
+  margin-bottom: 30px;
+  font-size: 16px;
+  font-family: "Open Sans",sans-serif;
+  text-align: center;
+}
+.cuisine-item a {
+  color: inherit;
+}
+.clear {
+  clear: both;
+}
+
+@media only screen and (max-width: 992px) {
+  .cuisine-container {
+    display: block;
+  }
+  .cuisine-logo {
+    width: 100%;
+  }
+  .cuisine-list {
+    width: 100%;
+  }
+}
+@media only screen and (max-width: 768px) {
+  .cuisine-container {
+    display: block;
+  }
+  .cuisine-logo {
+    width: 100%;
+  }
+  .cuisine-list {
+    width: 100%;
+  }
+  .cuisine-item {
+    width: 100%;
+  }
+}
+@media only screen and (max-width: 750px) {
+  .cuisine-container {
+    display: block;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+  }
+  .cuisine-logo {
+    width: 100%;
+  }
+  .cuisine-list {
+    width: 100%;
+  }
+  .cuisine-item {
+    width: 100%;
+  }
+  .cuisine-item a{
+    display: block;
+    background: #f4f4f4;
+    border: 1px solid #c9c7c7;
+    border-left: 0;
+    border-right: 0;
+    text-align: center;
+  }
+}

@@ -1,0 +1,100 @@
+@font-face {
+  font-family: 'sofiapro';
+  src: local('sofiapro'), url(./styles/fonts/Sofia\ Pro\ Black.otf) format('truetype');
+}
+@font-face {
+  font-family: 'sofia pro regular';
+  src: local('sofia pro regular'), url(./styles/fonts/Sofia\ Pro\ Regular.otf) format('truetype');
+}
+@font-face {
+  font-family: 'Prettywise-Regular';
+  src: local('Prettywise-Regular'), url(./styles/fonts/prettywise/OTF/Prettywise-Regular.otf) format('truetype');
+}
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+/* 
+.ant-message .ant-message-notice-content {
+  width: auto;
+  padding: 20px 40px;
+  background: #00b279;
+  color: white;
+}
+.ant-message .ant-message-notice-content .anticon {
+  display: none;
+}
+
+.ant-message .ant-message-notice-content span {
+  font-weight: 600;
+} */
+.food-picture .ant-avatar {
+  width: 100%;
+  height: 260px;
+}
+.price-size {
+  margin-bottom: 3px;
+  font-weight: bold;
+  background: aliceblue;
+}
+.order-modal .ant-form label {
+  font-size: 16px;
+}
+.order-modal .ant-radio-wrapper {
+  display: block;
+}
+.order-modal .increment {
+  background: #00b279;
+  border: 1px solid #00b279;
+  color: #fff;
+  padding: 5px 8px;
+}
+.order-modal .decrement {
+  background: #6c757d;
+  color: #fff;
+  border: 1px solid #6c757d;
+  padding: 5px 8px;
+}
+.order-modal .ant-btn-primary {
+  background: #00b279;
+  border: 1px solid #00b279;
+  color: #fff;
+}
+.order-modal .adons-input {
+  margin-bottom: 10px;
+}
+@media only screen and (max-width: 768px) {
+  .modal-with-form .ant-modal-content {
+    margin: auto;
+    width: 60%;
+  }
+  .modal-with-form .ant-modal-content .ant-modal-body {
+    padding: 10px;
+  }
+  .modal-with-form .ant-form-item {
+    width: 100%;
+    margin-bottom: 0;
+    height: 62px;
+  }
+  .modal-with-form .ant-form-item input {
+    height: 24px;
+  }
+  .modal-with-form .ant-form-item-label {
+    height: 24px;
+  }
+  .modal-action-buttons .custom-cancel-btn,
+  .custom-save-btn {
+    width: 50px;
+    font-size: 12px;
+    padding: 0;
+  }
+}

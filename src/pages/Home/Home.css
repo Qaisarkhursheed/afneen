@@ -1,0 +1,36 @@
+.working-steps {
+  /* padding-top: 20px; */
+  /* padding-bottom: 30px; */
+  /* background: url("../../styles//images/section1-bg.png") bottom center #ededed repeat-x; */
+  /* background: #f4f4f4; */
+}
+.Catagories-steps {
+  padding-top: 20px;
+  padding-bottom: 30px;
+  background: white;
+}
+.PopularRestaurants {
+  padding-top: 37px;
+  padding-bottom: 1px;
+  background: #fff;
+}
+.Bestdeals {
+  padding-top: 12px;
+  /* padding-bottom: 10px; */
+  background: #fff;
+}
+.all-cuisines {
+  background: #fafafa;
+  padding-top: 20px;
+  padding-bottom: 30px;
+}
+.mobile-app-info {
+  background: white;
+  padding-top: 20px;
+}
+@media only screen and (max-width: 500px) {
+  .working-steps {
+    padding-top: 0px;
+    padding-bottom: 12px;
+  }
+}

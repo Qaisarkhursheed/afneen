@@ -1,0 +1,59 @@
+.address-tab .add-new-button {
+  /* width: 32%; */
+  margin-bottom: 10px;
+  /* padding: 4px 0; */
+  background: #00b279;
+  border: 1px solid #00b279;
+  color: #fff;
+}
+.address-tab .save-new-button {
+  width: 100%;
+  margin-bottom: 10px;
+  padding: 4px 0;
+  background: #00b279;
+  border: 1px solid #00b279;
+  color: #fff;
+}
+.address-tab .add-new-button:hover,
+.add-new-button:focus,
+.add-new-button:active {
+  background: #00b279 !important;
+  color: #fff !important;
+}
+.address-tab .save-new-button:hover,
+.save-new-button:focus,
+.save-new-button:active {
+  background: #00b279 !important;
+  color: #fff !important;
+}
+.heading-row span {
+  display: inline-block;
+}
+.table-row-light {
+  background-color: #ffffff;
+}
+.table-row-dark {
+  background-color: #fbfbfb;
+}
+.address-table-box .address-table {
+  width: 100%;
+  max-width: 100%;
+  margin-bottom: 20px;
+}
+.address-table th {
+  padding: 8px;
+  line-height: 1.42857143;
+  border-bottom: 1px solid #00b279;
+}
+.address-table td {
+  padding: 8px;
+  line-height: 1.42857143;
+  vertical-align: top;
+  border-top: 1px solid #ddd;
+}
+.address-tab .address-table .address-head {
+  width: 60px;
+}
+.address-table .options-button {
+  padding: 0;
+}

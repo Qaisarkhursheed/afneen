@@ -1,0 +1,125 @@
+.flex{
+  display: flex;
+}
+.left-flex{
+  width: 36%;
+}
+.afanin-h3{
+  color: #f05543;
+  font-size: 24px;
+  font-family: sofia pro regular;
+  margin-left: 34px;
+}
+.afanin-h3:before {
+  content: "";
+  display: block;
+  width: 30px;
+  height: 2px;
+  background: #f05543;
+  left: 181px;
+  top: 31%;
+  position: absolute;
+}
+.afanin-h2{
+  font-family: Prettywise-Regular;
+  line-height: 44px;
+  font-size: 44px;
+  margin-bottom: 2px;
+}
+.afanin-p{
+  color: #ADADAD;
+  font-size: 20px;
+  font-family: sofia pro regular;
+}
+.afanin-button{
+  background-color: black;
+  color: white;
+  padding: 8px 36px;
+  margin-top: 20px;
+  box-shadow: 0.5px 0.5px black, 0px 0px black, 0px 0px black;
+  border: 1px solid white;
+}
+.empty-box1{
+  background: #F2F0F2;
+  height: 140px;
+  width: 190px;
+  margin: 12px 6px;
+}
+.empty-box2{
+  background: #F2F0F2;
+  height: 225px;
+  width: 190px;
+  margin: 12px 6px;
+}
+.find-talent-box{
+  top: 22%;
+  right: 78%;
+  position: absolute;
+  width: 304px;
+  height: 288px;
+  background-color: #FFFFFF;
+  box-shadow: -20px 20px 80px #0405051a;
+  text-align: center;
+}
+.find-talent{
+  font-size: 25px;
+  color: #469884;
+  margin-top: 60px;
+  font-family: Prettywise-Regular;
+}
+.talent-dropdown{
+  padding: 9px 24px;
+    background: #f2f0f2;
+    width: 82%;
+    margin: auto;
+    border-radius: 21px;
+    text-align: start;
+    font-weight: 500;
+    margin-top: 22px;
+    margin-bottom: 9px;
+}
+.afanin-button2{
+  margin-top: 12px;
+  padding: 8px 102px;
+  color: white;
+  background: black;
+  border: none;
+}
+.search-box{
+  background: #FFFFFF;
+  box-shadow: 20px 20px 80px #0405051a;
+  position: absolute;
+  top: 8%;
+  left: 37%;
+  padding: 10px 30px;
+  width: 312px;
+  border-radius: 30px;
+  font-weight: 500;
+  font-family: sofia pro regular;
+}
+.h2-talent{
+  background: linear-gradient(
+0deg, rgba(255,0,261,0) 0%, rgba(253,0,255,0) 16%, #FEC555 -3%, #FEC555 26%, rgba(255,0,255,0) 14%);
+    padding-top: 77px;
+}
+.search-button{
+  background: #F05543;
+  color: white;
+  border: none;
+  border-radius: 20px;
+  width: 36px;
+  height: 36px;
+  font-size: 21px;
+  /* float: right; */
+  position: absolute;
+  right: 5%;
+  top: 6%;
+}
+.nude{
+  
+  top: -100px;
+  left: 26px;
+  position: absolute;
+  width: 153px;
+
+}

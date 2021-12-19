@@ -1,0 +1,452 @@
+.PopularRestaurants .Restaurants-container {
+  /* margin-top: 10px; */
+  /* padding-right: 15px; */
+  /* padding-left: 15px; */
+  margin-right: auto;
+  margin-left: auto;
+  width: 98%;
+}
+.Restaurants-top {
+  /* width: 91%; */
+  /* margin: auto; */
+}
+.Restaurants-top span {
+  width: 120px;
+  height: 2px;
+  background-color: #e1e1e1;
+  display: block;
+}
+.Restaurants-top span em {
+  width: 60px;
+  height: 2px;
+  background-color: #589442;
+  display: block;
+}
+.Restaurants-top h2 {
+  margin-top: 13px;
+  color: #0d1115;
+  font-family: "Montserrat", sans-serif;
+  font-size: 28px;
+  font-weight: 700;
+  /* font-weight: normal; */
+  line-height: 1.2;
+  margin-bottom: 1px;
+  /* text-align: center; */
+  margin-bottom: 28px;
+}
+.Restaurants-container .catagory-sub-heading {
+  /* text-align: center; */
+  font-size: 17px;
+  margin-bottom: 30px;
+}
+.Restaurants {
+  /* flex: 0 0 23%; */
+  /* max-width: 23%; */
+  /* width: 280px; */
+  margin-right: 0px;
+  /* text-align: center; */
+  background: #fff;
+  /* padding: 53px 36px; */
+  position: relative;
+  border-radius: 3px;
+  /* border: 1px solid #ededed; */
+}
+.catagory:hover {
+  cursor: pointer;
+  box-shadow: 0 20px 20px -20px rgba(0, 0, 0, 0.25);
+}
+.rec-arrow-left {
+  background-color: #f4f4f4 !important;
+  box-shadow: none !important;
+  font-size: 2em !important;
+  color: #d09e9e !important;
+}
+.rec-arrow-right {
+  background-color: #f4f4f4 !important;
+  box-shadow: none !important;
+  font-size: 2em !important;
+  color: #d09e9e !important;
+}
+.rec-arrow-right:hover {
+  color: #333 !important;
+}
+.rec-arrow-left:hover {
+  color: #333 !important;
+}
+.strip figure {
+  margin-bottom: 5px;
+  overflow: hidden;
+  position: relative;
+  height: 190px;
+  border-radius: 5px;
+  background-color: #ededed;
+}
+.ribbon {
+  background-color: #ff3300;
+  color: #fff;
+  display: inline-block;
+  /* font-size: 12px; */
+  font-size: 0.75rem;
+  line-height: 1;
+  position: absolute;
+  top: 12px;
+  right: 15px;
+  padding: 7px 8px 4px 8px;
+  font-weight: 600;
+  min-width: 40px;
+  z-index: 9;
+}
+.strip img {
+  width: 100%;
+  height: 100%;
+}
+figure:hover img {
+  transition: transform 0.5s ease;
+  transform: scale(1.1);
+  cursor: pointer;
+}
+.strip:hover {
+  cursor: pointer;
+}
+.strip figure .item-name {
+  position: absolute;
+  background-color: #000;
+  left: 15px;
+  top: 15px;
+  text-transform: uppercase;
+  color: #fff;
+  font-weight: 600;
+  border-radius: 3px;
+  padding: 6px 8px 4px 8px;
+  line-height: 1;
+  /* font-size: 11px; */
+  font-size: 0.6875rem;
+}
+.item-title {
+  width: 100%;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  padding: 65px 15px 10px 15px;
+  background: linear-gradient(to bottom, transparent 5%, #000 100%);
+}
+.item-title h3 {
+  /* font-size: 16px; */
+  font-size: 1rem;
+  margin: 0;
+  font-weight: 500;
+  color: #fff;
+  margin: 0;
+  padding: 0;
+  line-height: 1;
+}
+.item-title small {
+  font-weight: 500;
+  line-height: 1;
+  font-size: 13px;
+  font-size: 0.8125rem;
+  color: rgba(255, 255, 255, 0.8);
+}
+.strip ul {
+  padding: 0px;
+  margin: 0px;
+}
+.strip ul li {
+  display: inline-block;
+  padding-top: 4px;
+  font-size: 0.8125rem;
+}
+.loc-open1{
+  font-size: 16px;
+  position: relative;
+  padding-left: 2px;
+  margin-right: 10px;
+  font-weight: 500;
+  color: #444;
+}
+.open2{
+  text-decoration: line-through;
+  color: #bbb;
+}
+.open2 img{
+  color: #bbb;
+}
+.open2 i{
+  color: #bbb;
+}
+.loc-open1 img{
+  width: 18px !important;
+  padding-bottom: 5px;
+  margin-right: 2px;
+}
+.loc-open1 i{
+ font-size: 17px;
+ margin-right: 2px;
+}
+.loc-open {
+  color: #32a067;
+  border: 1px solid #32a067;
+  position: relative;
+  top: -2px;
+  font-size: 12px;
+  font-size: 0.75rem;
+  font-weight: 500;
+  padding: 2px 8px;
+  line-height: 1;
+  border-radius: 3px;
+}
+.strip ul li:last-child {
+  padding: 0;
+  float: right;
+}
+.score span {
+  display: inline-block;
+  position: relative;
+  top: 7px;
+  margin-right: 8px;
+  font-size: 0.75rem;
+  text-align: right;
+  line-height: 1.1;
+  font-weight: 500;
+}
+.score span em {
+  display: block;
+  font-weight: normal;
+  font-size: 0.6875rem;
+}
+.score strong {
+  background-color: #f0f0f0;
+  line-height: 1;
+  border-radius: 5px 5px 5px 0;
+  padding: 10px 10px 8px 10px;
+  display: inline-block;
+  font-size: 0.9375rem;
+  font-weight: 700;
+}
+.banner-lazy {
+  background-image: url(../../../styles//images/afneen/banner.png);
+  background-position: center center;
+  background-repeat: no-repeat;
+  border-radius: 5px;
+  overflow: hidden;
+  background-size: cover;
+  width: 100%;
+  height: 306px;
+  margin-bottom: -30px;
+  position: relative;
+  margin-top: 120px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.wrapper-lazy {
+  background-color: rgba(0, 0, 0, 0.2);
+  color: #fff;
+  padding: 60px;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  left: 0;
+  top: 0;
+  z-index: 2;
+  display: flex;
+}
+.wrapper-lazy small {
+  text-transform: uppercase;
+  font-size: 14px;
+  font-size: 0.875rem;
+  font-weight: 500;
+}
+.wrapper-lazy h3 {
+  color: #fff;
+  font-size: 51px;
+  font-size: 3rem;
+  margin: 11px 136px 4px 236px;
+  width: 455px;
+  font-family: cursive;
+}
+.wrapper-lazy p {
+  font-size: 1.3125rem;
+}
+.btn-lazy {
+  border: none;
+  background: #F05543;
+  outline: none;
+  cursor: pointer;
+  display: inline-block;
+  text-decoration: none;
+  padding: 8px 25px;
+  color: #fff;
+  font-weight: 500;
+  text-align: center;
+  font-size: 14px;
+  font-size: 0.875rem;
+  transition: all 0.3s ease-in-out;
+  /* border-radius: 3px; */
+  line-height: normal;
+}
+.btn-lazy2{
+  border: none;
+  background: white;
+  outline: none;
+  cursor: pointer;
+  padding: 8px 38px;
+  color: #F05543;
+  font-weight: 500;
+  text-align: center;
+  font-size: 14px;
+  font-size: 0.875rem;
+  line-height: normal;
+  height: 36px;
+  margin-top: 55px;
+}
+.job-post{
+  background: #F1EAE2;
+  height: 375px;
+  margin-bottom: 100px;
+  margin-top: 306px;
+  position: relative;
+  padding: 54px;
+}
+.job-post-cicle{
+  width: 294px;
+  z-index: 0;
+  margin-left: 778px;
+  margin-bottom: -476px;
+}
+.job-post-cycle{
+  position: absolute;
+    width: 940px;
+    top: -67%;
+    right: 8%;
+}
+@media only screen and (max-width: 500px) {
+  .Restaurants {
+    width: 330px;
+  }
+  .PopularRestaurants .Restaurants-container {
+    padding-right: 0px;
+    padding-left: 0px;
+    margin-right: auto;
+    margin-left: auto;
+    width: 95%;
+  }
+  .wrapper-lazy {
+    padding: 30px;
+  }
+}
+.skills-box{
+  width: 355px;
+  box-shadow: -20px 20px 80px #0405051a;
+  height: 420px;
+  border-radius: 8px;
+  padding-top: 1px;
+}
+.empty-skills-box{
+  width: 334px;
+    height: 142px;
+    background: #F2F0F2 0% 0% no-repeat padding-box;
+    margin: 10px;
+    border-radius: 8px;
+}
+.pic{
+  width: 58px;
+    height: 58px;
+    border-radius: 33px;
+    margin-left: 20px;
+}
+.profile-name{
+  font-size: 22px;
+  font-weight: 500;
+  margin-left: 15px;
+}
+.profile-p{
+  font-size: 12px;
+  color: #F05543;
+}
+.skills-lorum{
+  padding: 0px 13px;
+  color: #ADADAD;
+  font-size: 14px;
+}
+.music{
+  font-weight: 600;
+    display: block;
+    margin: 15px;
+}
+.span-items{
+  background: #F2F0F2 0% 0% no-repeat padding-box;
+  color: #469884;
+  padding: 7px;
+  border-radius: 18px;
+  margin: 8px;
+}
+@media screen and (min-width: 1200px) and (max-width: 1250px) {
+  .PopularRestaurants .Restaurants-container {
+    width: 90%;
+  }
+}
+@media screen and (min-width: 1250px) and (max-width: 1300px) {
+  .PopularRestaurants .Restaurants-container {
+    width: 88%;
+  }
+}
+@media screen and (min-width: 1300px) and (max-width: 1350px) {
+  .PopularRestaurants .Restaurants-container {
+    width: 86%;
+  }
+}
+@media screen and (min-width: 1350px) and (max-width: 1400px) {
+  .PopularRestaurants .Restaurants-container {
+    width: 84%;
+  }
+}
+@media screen and (min-width: 1400px) and (max-width: 1450px) {
+  .PopularRestaurants .Restaurants-container {
+    width: 82%;
+  }
+}
+@media screen and (min-width: 1450px) and (max-width: 1500px) {
+  .PopularRestaurants .Restaurants-container {
+    width: 80%;
+  }
+}
+@media screen and (min-width: 1500px) and (max-width: 1550px) {
+  .PopularRestaurants .Restaurants-container {
+    width: 77%;
+  }
+}
+@media screen and (min-width: 1550px) and (max-width: 1600px) {
+  .PopularRestaurants .Restaurants-container {
+    width: 74%;
+  }
+}
+@media screen and (min-width: 1600px) and (max-width: 1650px) {
+  .PopularRestaurants .Restaurants-container {
+    width: 72%;
+  }
+}
+@media screen and (min-width: 1650px) and (max-width: 1700px) {
+  .PopularRestaurants .Restaurants-container {
+    width: 70%;
+  }
+}
+@media screen and (min-width: 1700px) and (max-width: 1750px) {
+  .PopularRestaurants .Restaurants-container {
+    width: 68%;
+  }
+}
+@media screen and (min-width: 1750px) and (max-width: 1800px) {
+  .PopularRestaurants .Restaurants-container {
+    width: 66%;
+  }
+}
+@media screen and (min-width: 1800px) and (max-width: 1850px) {
+  .PopularRestaurants .Restaurants-container {
+    width: 64%;
+  }
+}
+@media screen and (min-width: 1850px) {
+  .PopularRestaurants .Restaurants-container {
+    width: 62%;
+  }
+}

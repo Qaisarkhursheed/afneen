@@ -1,0 +1,328 @@
+.deals-row {
+  width: 90%;
+  margin: auto;
+  /* margin-bottom: 30px; */
+}
+.heading-with-view-all {
+  display: flex;
+  justify-content: space-between;
+}
+.heading-with-view-all .view-all-button,
+.heading-with-view-all .view-all-button:hover,
+.heading-with-view-all .view-all-button:active,
+.heading-with-view-all .view-all-button:focus {
+  border: none !important;
+  color: #589442;
+  font-size: 14px;
+}
+.view-all-button span {
+  background-color: white !important;
+}
+.deals {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.deals ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+.deals-list {
+  width: 49%;
+  position: relative;
+  border: 1px solid #ededed;
+  border-radius: 5px;
+  padding: 15px 15px 15px 225px;
+  color: #444;
+  margin-bottom: 30px;
+  min-height: 130px;
+  display: block;
+  overflow: hidden;
+}
+.deals-list img {
+  width: 100%;
+  height: 100%;
+}
+.Restaurants-top p {
+  font-size: 17px;
+}
+.res-top2 {
+  width: 90% !important;
+}
+.deals-container {
+  margin: auto;
+}
+.deals-list figure {
+  border-radius: 5px 0 0 5px;
+  width: 200px;
+  height: 137px;
+  overflow: hidden;
+  position: absolute;
+  left: -1px;
+  top: 0;
+}
+.score1 {
+  position: absolute;
+  top: 10px;
+  right: 26px;
+}
+.score1 strong {
+  background-color: #f0f0f0;
+  line-height: 1;
+  border-radius: 5px 5px 5px 0;
+  padding: 10px 10px 8px 10px;
+  display: inline-block;
+  font-size: 0.9375rem;
+}
+.deals-list em {
+  font-size: 12px;
+  font-size: 0.75rem;
+}
+.deals-list h3 {
+  font-size: 18px;
+  font-size: 1.125rem;
+  margin-bottom: 0;
+  color: #222;
+  font-weight: 500;
+}
+.deals-list small {
+  font-size: 14px;
+  font-size: 0.875rem;
+  color: #777;
+}
+.deals-list ul {
+  margin-top: 10px;
+}
+.deals-list li {
+  display: inline-block;
+  width: auto;
+  margin: 0 5px 0 0;
+}
+.ribbon2 {
+  background-color: #ff3300;
+  color: #fff;
+  display: inline-block;
+  font-size: 12px;
+  font-size: 0.75rem;
+  line-height: 1;
+  /* position: absolute; */
+  top: 12px;
+  right: 15px;
+  padding: 7px 8px 4px 8px;
+  font-weight: 600;
+  min-width: 40px;
+  z-index: 9;
+}
+.deals-list:hover img {
+  transition: transform 0.5s ease;
+  transform: scale(1.1);
+  cursor: pointer;
+}
+.deals-list:hover {
+  cursor: pointer;
+  box-shadow: 0 1px 2px hsla(0, 0%, 40.8%, 0.5);
+}
+.banner-last {
+  background-image: url(../../../styles//images/bg_call_section.jpg);
+  background-position: top center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 511px;
+  padding: 8% 0;
+}
+.banner-last2 {
+  background-image: url(../../../styles//images/bg_call_section_2.jpg);
+  background-position: top center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 511px;
+  padding: 8% 0;
+}
+.restaurant-container {
+  max-width: 90%;
+  /* padding-right: 15px; */
+  /* padding-left: 15px; */
+  margin-right: auto;
+  margin-left: auto;
+}
+.box1 {
+  float: right;
+  background-color: #121921;
+  color: #fff;
+  padding: 40px;
+  width: 42%;
+  /* margin-right: 55px; */
+}
+.box1 h3 {
+  color: #fff;
+  font-size: 1.75rem;
+  margin-bottom: 0px;
+}
+.box1 p {
+  opacity: 0.8;
+  font-size: 18px;
+  /* font-size: 1rem; */
+}
+.reedmore {
+  border: none;
+  background: #589442;
+  outline: none;
+  cursor: pointer;
+  display: inline-block;
+  text-decoration: none;
+  padding: 8px 25px;
+  color: #fff;
+  font-weight: 500;
+  text-align: center;
+  font-size: 14px;
+  font-size: 0.875rem;
+  transition: all 0.3s ease-in-out;
+  border-radius: 3px;
+  line-height: normal;
+}
+@media only screen and (max-width: 860px) {
+  .deals-list {
+    width: 100%;
+  }
+}
+@media only screen and (max-width: 520px) {
+  .deals-list {
+    width: 100%;
+    padding: 145px 15px 15px 15px;
+    min-height: inherit;
+  }
+  .deals-list figure {
+    position: absolute;
+    width: 100%;
+    top: 0;
+    left: 0;
+    right: 0;
+    border-radius: 5px 5px 0 0;
+  }
+  .deals-list figure img {
+    width: 100%;
+    /* max-width: 100%; */
+    height: 100%;
+  }
+}
+@media only screen and (max-width: 350px) {
+  .heading-with-view-all .view-all-button {
+    display: none;
+  }
+}
+@media only screen and (max-width: 750px) {
+  .box1 {
+    width: 100% !important;
+  }
+  .banner-last {
+    min-height: 449px;
+  }
+}
+@media only screen and (max-width: 366px) {
+  .box1 {
+    padding: 22px;
+  }
+}
+@media only screen and (max-width: 1024px) {
+  .box1 {
+    width: 40%;
+    /* margin-right: 70px; */
+  }
+}
+@media screen and (min-width: 750px) and (max-width: 920px) {
+  .box1 {
+    width: 50%;
+    /* margin-right: 70px; */
+  }
+}
+
+@media screen and (min-width: 1350px) and (max-width: 1400px) {
+  .deals-container {
+    width: 99%;
+  }
+  .restaurant-container {
+    max-width: 89%;
+  }
+}
+@media screen and (min-width: 1400px) and (max-width: 1450px) {
+  .deals-container {
+    width: 93%;
+  }
+  .restaurant-container {
+    max-width: 84%;
+  }
+}
+@media screen and (min-width: 1450px) and (max-width: 1500px) {
+  .deals-container {
+    width: 91%;
+  }
+  .restaurant-container {
+    max-width: 82%;
+  }
+}
+@media screen and (min-width: 1500px) and (max-width: 1550px) {
+  .deals-container {
+    width: 88%;
+  }
+  .restaurant-container {
+    max-width: 79%;
+  }
+}
+@media screen and (min-width: 1550px) and (max-width: 1600px) {
+  .deals-container {
+    width: 83%;
+  }
+  .restaurant-container {
+    max-width: 75%;
+  }
+}
+@media screen and (min-width: 1600px) and (max-width: 1650px) {
+  .deals-container {
+    width: 81%;
+  }
+  .restaurant-container {
+    max-width: 73%;
+  }
+}
+@media screen and (min-width: 1650px) and (max-width: 1700px) {
+  .deals-container {
+    width: 79%;
+  }
+  .restaurant-container {
+    max-width: 71%;
+  }
+}
+@media screen and (min-width: 1700px) and (max-width: 1750px) {
+  .deals-container {
+    width: 77%;
+  }
+  .restaurant-container {
+    max-width: 69%;
+  }
+}
+@media screen and (min-width: 1750px) and (max-width: 1800px) {
+  .deals-container {
+    width: 75%;
+  }
+  .restaurant-container {
+    max-width: 67%;
+  }
+}
+@media screen and (min-width: 1800px) and (max-width: 1850px) {
+  .deals-container {
+    width: 72%;
+  }
+  .restaurant-container {
+    max-width: 65%;
+  }
+}
+@media screen and (min-width: 1850px) {
+  .deals-container {
+    width: 70%;
+  }
+  .restaurant-container {
+    max-width: 63%;
+  }
+}

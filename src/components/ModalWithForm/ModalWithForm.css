@@ -1,0 +1,55 @@
+.modal-with-form .ant-form-item {
+  width: 50%;
+  margin-bottom: 8px;
+  display: inline-block;
+  padding-right: 15px;
+  padding-left: 15px;
+}
+.ant-form-item p {
+  margin-bottom: 6px;
+  font-size: 12px;
+  font-family: "Open Sans",sans-serif;
+  color: #474d5d;
+}
+.modal-with-form .ant-input {
+  border: 1px solid #c9c7c7;
+  color: #1e1e1e;
+  padding: 3px !important;
+}
+.modal-with-form .ant-input:focus, .ant-input-focused {
+  border-color: #c9c7c7;
+  box-shadow: none !important;
+}
+.modal-with-form .ant-input:hover {
+  border-color: #c9c7c7;
+  border: 1px solid #c9c7c7;
+}
+.modal-with-form .info-form-password {
+  width: 100%;
+}
+.modal-with-form .info-form-password .ant-input:hover {
+  border-color: unset;
+  border: 0;
+}
+/* .modal-with-form .field-lable {
+  margin-bottom: 4px;
+  margin-left: 14px;
+  font-size: 12px;
+  font-family: "Open Sans",sans-serif;
+  color: #474d5d;
+} */ 
+.modal-with-form .modal-action-buttons {
+  display: flex;
+  justify-content: flex-end;
+}
+.modal-with-form .modal-action-buttons .custom-cancel-btn {
+  margin-right: 7px;
+  background: gray;  
+  border: 1px solid gray;
+  color: #fff;
+}
+.modal-with-form .modal-action-buttons .custom-save-btn {
+  background: #00b279;
+  border: 1px solid #00b279;
+  color: #fff;
+}

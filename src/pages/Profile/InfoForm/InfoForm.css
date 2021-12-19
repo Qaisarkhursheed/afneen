@@ -1,0 +1,58 @@
+.info-tab .ant-form-item {
+  width: 50%;
+  margin-bottom: 8px;
+  display: inline-block;
+  padding-right: 15px;
+  padding-left: 15px;
+}
+.ant-form-item p {
+  margin-bottom: 0;
+  font-size: 12px;
+  font-family: "Open Sans",sans-serif;
+  color: #474d5d;
+}
+.info-tab .ant-input {
+  background: #e2e3e3;
+  border: 1px solid #c9c7c7;
+  color: #1e1e1e;
+  padding: 3px !important;
+}
+.info-tab .ant-input:focus, .ant-input-focused {
+  border-color: #c9c7c7;
+  box-shadow: none !important;
+}
+.info-tab .ant-input:hover {
+  border-color: #c9c7c7;
+  border: 1px solid #c9c7c7;
+}
+.change-and-save-button {
+  width: 100%;
+}
+.info-tab .change-password-button {
+  width: 18%;
+  color: #00b279;
+}
+.info-tab .change-password-button:hover, .change-password-button:focus, .change-password-button:active  {
+  color: #00b279 !important;
+}
+.info-tab .sava-data-button:hover, .sava-data-button:focus , .sava-data-button:active {
+  background: #00b279 !important;
+  border: 1px solid #00b279 !important;
+}
+.info-tab .sava-data-button {
+  width: 100%;
+  background: #00b279;
+  border: 1px solid #00b279;
+  color: #fff;
+}
+.info-tab .ant-form-item-label  label {
+  height: auto;
+}
+.info-tab .ant-spin {
+  margin-left: 50%;
+}
+@media (max-width: 750px){
+  .info-tab .ant-form-item {
+    width: 100%;
+  }
+  }

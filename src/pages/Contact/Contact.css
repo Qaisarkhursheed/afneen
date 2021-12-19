@@ -1,0 +1,138 @@
+.banner-section-contact {
+  padding-top: 100px;
+}
+.banner-section-contact h1.home-search-text {
+  margin: 0px !important;
+  padding: 0px;
+}
+.banner-section-contact p.home-search-subtext {
+  margin: 0px !important;
+  padding: 0px;
+}
+.contact-section {
+  min-height: 500px;
+  position: relative;
+  padding: 0;
+  background: #eff2f5;
+}
+#map-contact {
+  height: 100%;
+  width: 100%;
+  /* position: absolute; */
+  top: 0;
+  left: 0;
+  z-index: 0;
+}
+.inner-container {
+  z-index: 999;
+  position: absolute;
+  top: 10%;
+  left: 0;
+  width: 100%;
+}
+.inner {
+  max-width: 800px;
+  min-width: 800px;
+  margin: auto;
+  display: block;
+}
+.inner-content {
+  /* background: rgb(6, 6, 6); */
+  background: rgba(6, 6, 6, 0.6);
+  border: 1px solid #f75d34;
+  min-height: 400px;
+  max-height: 400px;
+  padding-right: 15px;
+  padding-left: 15px;
+}
+@media (min-width: 992px) {
+  .inner-content {
+    width: 58.33333333%;
+  }
+}
+@media (min-width: 992px) {
+  .inner-content {
+    float: left;
+  }
+}
+.inner-content h2 {
+  color: #eff2f5;
+  font-family: "Lato", sans-serif;
+  font-size: 28px;
+  font-weight: normal;
+  line-height: 35px;
+  margin-top: 15px;
+  margin-bottom: 10px;
+  text-align: center;
+}
+.inner-content p {
+  color: #eff2f5;
+  font-family: "Lato", sans-serif;
+  line-height: normal;
+  margin: 0 0 10px;
+}
+.inner-form {
+  background: #060606;
+  border: 1px solid #f75d34;
+  border-left: 0;
+  min-height: 400px;
+  max-height: 400px;
+  padding-right: 15px;
+  padding-left: 15px;
+}
+@media (min-width: 992px) {
+  .inner-form {
+    width: 41.66666667%;
+  }
+}
+@media (min-width: 992px) {
+  .inner-form {
+    float: left;
+  }
+}
+.top30 {
+  margin-top: 30px;
+}
+Form.Item {
+  margin: 0px;
+}
+.top20 {
+  margin-top: -12px;
+}
+.submit-button {
+  text-align: center;
+}
+@media (max-width: 991px) {
+  .contact-section .leaflet-container {
+    display: none !important;
+  }
+  .inner-content {
+    min-height: inherit;
+    max-height: inherit;
+    padding: 30px;
+    border: none;
+    background: rgba(6, 6, 6, 0.9);
+    border-bottom: none;
+  }
+  .inner-container {
+    /* z-index: 999; */
+    position: relative;
+    top: 0%;
+    left: 0;
+    width: 100%;
+  }
+  .inner {
+    /* min-height: inherit; */
+    /* max-height: inherit; */
+    /* padding: 30px; */
+    border: none;
+    max-width: 100%;
+    min-width: 100%;
+  }
+  .banner-section-contact {
+    padding-top: 20px;
+  }
+  .inner-form {
+    background: none !important;
+  }
+}
